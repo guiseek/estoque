@@ -69,7 +69,7 @@ Crie um formulário para cadastro usando como base a interface acima usando [ele
   - Elemento [`<output>`](https://www.notion.so/guiseek/Output-86a7a92833714c8991fb3debed3a7636?pvs=4)
   - Elemento [`<dialog>`](https://www.notion.so/guiseek/Dialog-c8b52a43d031474e9b2d42f3a0660047?pvs=4)
 - Atributos
-  - Atributo [[autocomplete]](https://guiseek.notion.site/HTML-Forms-658f918f02434b438bdbff5d40885533)
+  - Atributo [`[autocomplete]`](https://guiseek.notion.site/HTML-Forms-658f918f02434b438bdbff5d40885533)
 - Validações
   - HTML5 [Form Validation](https://www.notion.so/guiseek/HTML-Form-Validation-feed32def6d64a278f4ecd1e6e2d70f7?pvs=4)
 
