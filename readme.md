@@ -4,30 +4,34 @@
 
 Praticar conteúdo visto em sala para criação de uma página para controle de estoque para produtos, usando comunicação **HTTP** entre Cliente / Servidor, técnicas mais utilizadas e boas práticas de codificação.
 
-Conteúdos que serão abordados:
+### Conteúdos abordados:
 
-1. CRUD
-   1. Create
-      1. HTML: `<form>` / `<fieldset>` / `<label>` / `<input>` / `<select>` / `<button>` / `<output>`
-      1. Web APIs: `Fetch API` / `DOM` / `Storage` / `UI Events`
-      1. HTTP: `POST`
-   1. Retrieve
-      1. HTML: `<table>` / `<template>`
-      1. Web APIs: `Fetch API` / `DOM` / `Storage`
-      1. HTTP: `GET`
-   1. Update
-      1. HTML: `<form>` / `<fieldset>` / `<label>` / `<input>` / `<select>` / `<button>` / `<output>`
-      1. Web APIs: `Fetch API` / `DOM` / `Storage` / `UI Events`
-      1. HTTP: `PUT` / `PATCH`
-   1. Delete
-      1. HTML: `<button>` / `<dialog>`
-      1. Web APIs: `Fetch API` / `DOM` / `Storage`
-      1. HTTP: `DELETE`
+- HTML
+	- `<form>`
+	- `<fieldset>`
+	- `<label>`
+	- `<input>`
+	- `<select>`
+	- `<button>`
+	- `<output>`
+	- `<table>`
+	- `<template>`
+- Web APIs:
+	- `DOM`
+	- `Fetch API`
+	- `UI Events`
+	- `Storage`
+- HTTP:
+	- `POST`
+	- `GET`
+	- `PUT`
+	- `DELETE`
 
 #### Conteúdo para aprendizado, referência e exemplos de uso
 
 - [Semântica, Estrutura e APIs de Documentos HTML](https://www.notion.so/guiseek/HTML-c575c12e2175477586607fdce72a0cbc?pvs=4)
 
+---
 
 ## CRUD
 
