@@ -13,6 +13,7 @@ Praticar conteúdo visto em sala para criação de uma página para controle de 
 	- `<input>`
 	- `<select>`
 	- `<button>`
+	- `<dialog>`
 	- `<output>`
 	- `<table>`
 	- `<template>`
@@ -66,6 +67,7 @@ Crie um formulário para cadastro usando como base a interface acima usando [ele
   - Elemento [`<select>`](https://www.notion.so/guiseek/Select-d1dc0ea926034560bc732f1545694d6f?pvs=4)
   - Elemento [`<button>`](https://www.notion.so/guiseek/Button-4101c114027544c2857cb99025f27e69?pvs=4)
   - Elemento [`<output>`](https://www.notion.so/guiseek/Output-86a7a92833714c8991fb3debed3a7636?pvs=4)
+  - Elemento [`<dialog>`](https://www.notion.so/guiseek/Dialog-c8b52a43d031474e9b2d42f3a0660047?pvs=4)
 - Atributos
   - Atributo [[autocomplete]](https://guiseek.notion.site/HTML-Forms-658f918f02434b438bdbff5d40885533)
 - Validações
