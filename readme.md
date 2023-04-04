@@ -39,19 +39,19 @@ Praticar conteúdo visto em sala para criação de uma página para controle de 
 No diretório `src/utilities` estão disponíveis algumas funções e/ou classes utilitárias que são comuns de se encontrar em projetos e não devem ser o foco nesta atividade, sobrando mais tempo para que desenvolvam as partes mais importantes.
 
 - Para coletar dados do formulário em formato JSON, use:
-	```ts
-	function getFormData<T extends object>(form: HTMLFormElement): T
-	```
+  ```ts
+  function getFormData<T extends object>(form: HTMLFormElement): T
+  ```
 - Para clonar um fragmento ou elemento template no HTML, use:
-	```ts
-	function cloneTemplate<T extebds Element>(template: HTMLTemplateElement, hasContainer?: boolean): T
-	```
+  ```ts
+  function cloneTemplate<T extebds Element>(template: HTMLTemplateElement, hasContainer?: boolean): T
+  ```
 
 ---
 
 ## CRUD
 
-### Interface base para construção do CRUD
+### Interface base para construção
 
 ```ts
 interface Product {
