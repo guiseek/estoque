@@ -49,7 +49,7 @@ const data = getFormData<CreateProductDto>(form)
 
 ```ts
 const template = document.querySelector('template')
-const fragment = cloneTemplate(template: HTMLTemplateElement)
+const fragment = cloneTemplate(template)
 ```
 
 ---
