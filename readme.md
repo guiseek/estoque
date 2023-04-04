@@ -7,30 +7,45 @@ Praticar conteúdo visto em sala para criação de uma página para controle de 
 ### Conteúdos abordados:
 
 - HTML
-	- `<form>`
-	- `<fieldset>`
-	- `<label>`
-	- `<input>`
-	- `<select>`
-	- `<button>`
-	- `<dialog>`
-	- `<output>`
-	- `<table>`
-	- `<template>`
+  - `<form>`
+  - `<fieldset>`
+  - `<label>`
+  - `<input>`
+  - `<select>`
+  - `<button>`
+  - `<dialog>`
+  - `<output>`
+  - `<table>`
+  - `<template>`
 - Web APIs:
-	- `DOM`
-	- `Fetch API`
-	- `UI Events`
-	- `Storage`
+  - `DOM`
+  - `Fetch API`
+  - `UI Events`
+  - `Storage`
 - HTTP:
-	- `POST`
-	- `GET`
-	- `PUT`
-	- `DELETE`
+  - `POST`
+  - `GET`
+  - `PUT`
+  - `DELETE`
 
-#### Conteúdo para aprendizado, referência e exemplos de uso
+#### Conteúdo para aprendizado sobre a base do HTML
 
 - [Semântica, Estrutura e APIs de Documentos HTML](https://www.notion.so/guiseek/HTML-c575c12e2175477586607fdce72a0cbc?pvs=4)
+
+---
+
+### Utilitários disponíveis
+
+No diretório `src/utilities` estão disponíveis algumas funções e/ou classes utilitárias que são comuns de se encontrar em projetos e não devem ser o foco nesta atividade, sobrando mais tempo para que desenvolvam as partes mais importantes.
+
+- Para coletar dados do formulário em formato JSON, use:
+	```ts
+	function getFormData<T extends object>(form: HTMLFormElement): T
+	```
+- Para clonar um fragmento ou elemento template no HTML, use:
+	```ts
+	function cloneTemplate<T extebds Element>(template: HTMLTemplateElement, hasContainer?: boolean): T
+	```
 
 ---
 
@@ -39,15 +54,29 @@ Praticar conteúdo visto em sala para criação de uma página para controle de 
 ### Interface base para construção do CRUD
 
 ```ts
-interface Produto {
+interface Product {
   id: number
   name: string
   price: string
-  detail: string
-  amount: string
-  category: string
+  detail?: string
+  amount?: string
+  category?: string
+  visible?: boolean
   created: Date
   updated: Date
+}
+
+interface CreateProductDto {
+  name: string
+  price: string
+  detail?: string
+  amount?: string
+  category?: string
+  visible?: boolean
+}
+
+interface UpdateProductDro extends Partial<CreateProductDto> {
+  id: number
 }
 ```
 
@@ -55,7 +84,11 @@ interface Produto {
 
 #### Com **HTML**
 
-Crie um formulário para cadastro usando como base a interface acima usando [elementos semânticos](https://seek.surge.sh/posts/semantica-dos-elementos-html/), não é necessário o uso de todos elementos ou atributos apresentados como referência. Use o que entender que faça sentido e por último mas não menos importante, que haja tempo hábil para sua implementação.
+Crie um formulário para cadastro usando como base os campos da interface `CreateProductDto` acima usando [elementos semânticos](https://seek.surge.sh/posts/semantica-dos-elementos-html/).
+
+> _**Observação**_
+>
+> Não é necessário o uso de todos elementos ou atributos apresentados como referência. Use o que entender que faça sentido e por último mas não menos importante, que haja tempo hábil para sua implementação.
 
 #### Conteúdo para aprendizado, referência e exemplos de uso
 
@@ -75,7 +108,8 @@ Crie um formulário para cadastro usando como base a interface acima usando [ele
 
 #### Com **TypeScript**
 
-Escreva uma função que adicione aguarde o evento de submissão do formulário
+1. Escreva uma função que adicione aguarde o evento de submissão do formulário.
+1.
 
 ### Retrieve
 
